@@ -1,8 +1,7 @@
-Function IterativeFactorial(int n)
-    product = 1
-    counter = 1
-    while counter <= n do
-        product = product * counter
+Function RecursiveFactorial(int n)
+    if n >= 1 do
+        return n * RecursiveFactorial(n-1)
+    else
+        return 1
     end
-    return product
 end
